@@ -1,0 +1,145 @@
+.heading {
+    padding-left: 40%;
+}
+
+h3 {
+    color: rgba(25, 26, 30, 0.4);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+span {
+    color: #A58861;
+}
+
+h1 {
+    line-height: 26px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 800;
+}
+
+.top {
+    margin-top: 10%;
+}
+
+.top .col-6 {
+    background-color: #191a1e;
+    padding: 120px;
+}
+
+.top .col-4 {
+    padding: 0px;
+    margin-left: 90px;
+}
+
+.top .row {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.top .col-6 h1 {
+    color: white;
+}
+
+.col-6 h4 {
+    color: #A58861;
+    font-size: 18px;
+    padding-top: 5px;
+}
+
+.col-6 h3 {
+    color: rgba(255, 255, 255, 0.6);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    padding-top: 30px;
+    line-height: 30px;
+    max-width: 950px;
+}
+
+.white {
+    background-color: white;
+}
+
+.about-bottom-bar {
+    background: #F1F1F2;
+    width: 100%;
+    position: absolute;
+    height: 10%;
+    background: red;
+    bottom: 0;
+    left: 0;
+    top: 50%;
+}
+
+i {
+    color: white;
+    font-size: 20px;
+    float: right;
+    padding-top: 50px;
+}
+
+.plane:hover i {
+    transform: skewy(25deg);
+    transition: 0.2s;
+}
+
+.body {
+    background-color: #f1f1f2;
+}
+
+.body H4 {
+    padding-top: 230px;
+    padding-left: 260px;
+    color: #A58861;
+    font-size: 18px;
+}
+
+.body h1 {
+    padding-top: 20px;
+    font-size: 22px;
+    padding-left: 275px;
+}
+
+.lowerbody {
+    background: #F1F1F2 center no-repeat;
+    background-size: cover;
+    max-height: 150px;
+}
+
+.lowerbody h4 {
+    color: #A58861;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+
+.lowerbody .row {
+    margin: 1px;
+}
+
+.lowerbody .col-4 {
+    padding: 0px;
+    background-color: #191a1e;
+    border: 10px;
+    border-color: white;
+}
+
+.skills h4 {
+    color: #A58861;
+    font-size: 18px;
+    padding-bottom: 30px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.skills h1 {
+    font-size: 22px;
+    text-align: center;
+}
+
+.cross {
+    padding-top: 10px;
+    padding-right: 100px;
+    color: black;
+    float: right;
+    font-size: 40px;
+    transform: skewy(25);
+}
