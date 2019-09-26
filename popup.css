@@ -29,3 +29,36 @@ h1 {
     font-size: 40px;
     transform: skewy(25);
 }
+
+.nb .btn {
+    height: 60px;
+    background: black;
+    color: white;
+    display: inline-block;
+    padding: 30px 55px 30px 40px;
+    line-height: 0px;
+    border-radius: 30px;
+    border-color: black;
+    position: relative;
+    transition: .2s;
+    font-family: 'Silka-Medium', sans-serif;
+}
+
+.nb .btn:hover {
+    background: black;
+    border-color: #191A1E;
+}
+
+.nb .expands {
+    opacity: .5;
+    position: absolute;
+    display: inline-block;
+    transform: translate(0, -50%);
+    margin-left: 10px;
+}
+
+.nb .btn:hover .expands {
+    transform: translate(60%, -50%);
+    transition: 0.2s;
+    color: white;
+}
