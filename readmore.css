@@ -169,3 +169,85 @@ h1 {
     transition: 0.2s;
     color: white;
 }
+
+#iconic {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#iconic ul {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#iconic ul li {
+    position: relative;
+    list-style: none;
+    width: 60px;
+    height: 60px;
+    margin: 0 30px;
+    transform: rotate(-30deg) skew(25deg);
+    background: #ccc;
+}
+
+#iconic li span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 30px!important;
+}
+
+#iconic li:hover span:nth-child(5) {
+    transform: translate(40px, -40px);
+    opacity: 1;
+}
+
+#iconic li:hover span:nth-child(4) {
+    transform: translate(30px, -30px);
+    opacity: .8;
+}
+
+#iconic li:hover span:nth-child(3) {
+    transform: translate(20px, -20px);
+    opacity: .6;
+}
+
+#iconic li:hover span:nth-child(2) {
+    transform: translate(10px, -10px);
+    opacity: .4;
+}
+
+#iconic li:hover span:nth-child(1) {
+    transform: translate(0 0);
+    opacity: .2;
+}
+
+#iconic li:nth-child(1) span {
+    background: #0077b5;
+}
+
+.style-one {
+    width: 30%;
+}
+
+#iconic ul {
+    margin-bottom: 1px;
+}
+
+footer .container {
+    background-color: #2c2c2c;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
