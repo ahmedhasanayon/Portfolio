@@ -3,6 +3,10 @@
            padding-top: 50px;
        }
        
+       .midsec {
+           background: url(bg1.png);
+       }
+       
        #projects {
            padding-top: 50px;
        }
@@ -30,13 +34,13 @@
        
        #content {
            text-align: center;
-           padding-top: 25%;
+           padding-top: 17%;
            padding-bottom: 21%;
-           color: #191A1E
+           color: white;
        }
        
        h3 {
-           color: rgba(25, 26, 30, 0.4);
+           color: rgba(255, 255, 255, 1);
            font-family: 'Barlow Semi Condensed', sans-serif;
        }
        
@@ -55,6 +59,11 @@
        
        .btn:hover {
            background-color: #191919;
+           border-color: #191919;
+       }
+       
+       .btn {
+           border-color: #191919;
        }
        
        .expands {
