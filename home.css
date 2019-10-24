@@ -5,6 +5,12 @@
        
        .midsec {
            background: url(bg1.png);
+           background-attachment: fixed;
+           background-position: center;
+           background-repeat: no-repeat;
+           background-size: cover;
+           height: 800px;
+           padding: 0px;
        }
        
        #projects {
@@ -15,6 +21,7 @@
            box-shadow: 0 20px 50px rgba(0, 0, 255, 0.1);
            color: rgba(255, 0, 0, 1);
            padding-bottom: 0px;
+           padding: 0px;
        }
        
        h1 {
